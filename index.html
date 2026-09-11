@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+  
+  <!-- Primary Meta Tags -->
+  <title>Nikitha &amp; Chirag | Engagement Ceremony Invitation</title>
+  <meta name="title" content="Nikitha &amp; Chirag | Engagement Ceremony Invitation" />
+  <meta name="description" content="With the divine grace of the Almighty and our parents, we invite you to celebrate the Engagement Ceremony of Nikitha &amp; Chirag on Thursday, 24th September at Akshara Banquet &amp; Lawns, Bengaluru." />
+  
+  <!-- Open Graph / Facebook / WhatsApp Share Preview -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Nikitha &amp; Chirag | Royal Engagement Ceremony" />
+  <meta property="og:description" content="We cordially invite you to celebrate our Engagement Ceremony on Thursday, 24th Sept from 11:00 AM onwards at Akshara Banquet &amp; Lawns, Bengaluru." />
+  <meta property="og:image" content="images/og_share_card.jpg" />
+  
+  <!-- Favicons -->
+  <link rel="icon" type="image/png" href="images/cdn/favicon-dark_1.png" />
+  <link rel="apple-touch-icon" href="images/cdn/apple-touch-icon_1.png" />
+
+  <!-- Preload Stylesheets -->
+  <link rel="stylesheet" href="css/luxury-invite.css" />
+</head>
+<body>
+
+  <!-- Floating Star & Gold Dust Canvas -->
+  <canvas id="particlesCanvas"></canvas>
+
+  <!-- Looped Background Music (Chanakya Sitar Live by Rishab Rikhiram Sharma) -->
+  <audio id="weiAudio" loop preload="auto">
+    <source src="media/chanakya_sitar.mp3" type="audio/mp3" />
+  </audio>
+
+  <!-- ==========================================
+       INTERACTIVE WAX SEAL ENVELOPE OVERLAY
+       ========================================== -->
+  <div id="weiOverlay">
+    <div class="envelope-wrapper">
+      <img src="images/ganesha_gold_vector.svg" alt="Shree Ganesha" class="envelope-ganesha" />
+      <div class="envelope-subtext">॥ श्री गणेशाय नमः ॥</div>
+      <div class="envelope-title">Royal Engagement Invitation</div>
+      
+      <div class="envelope-couple">
+        Nikitha <span>&amp;</span> Chirag
+      </div>
+
+      <!-- Custom N & C Monogram Royal Wax Seal -->
+      <div class="envelope-seal-outer" title="Tap to Open Invitation">
+        <img src="images/nc_monogram_seal.jpg" alt="N & C Royal Wax Seal" class="envelope-seal-img" />
+      </div>
+
+      <div class="envelope-tap-cta">
+        <div class="tap-text">Tap Seal to Open</div>
+        <svg class="tap-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="6 9 12 15 18 9"></polyline>
+        </svg>
+      </div>
+    </div>
+  </div>
+
+  <!-- Video Envelope Unfold Transition -->
+  <div id="weiVideoWrap">
+    <video id="weiVideo" muted playsinline preload="auto">
+      <source src="media/envelope_intro.mp4" type="video/mp4" />
+    </video>
+  </div>
+
+  <!-- Floating Audio Equalizer Button -->
+  <div id="musicToggleBtn" role="button" aria-label="Toggle background music" title="Toggle Music">
+    <div class="music-bars">
+      <span></span><span></span><span></span><span></span>
+    </div>
+  </div>
+
+  <!-- ==========================================
+       MAIN INVITATION CONTAINER
+       ========================================== -->
+  <main class="app-container">
+
+    <!-- HERO & GANESHA BLESSING SECTION -->
+    <section class="card-section hero-section">
+      <img src="images/ganesha_gold_vector.svg" alt="Lord Ganesha Emblem" class="ganesha-emblem" />
+      
+      <div class="mantra-primary">॥ श्री गणेशाय नमः ॥</div>
+      <p class="mantra-sloka">
+        वक्रतुण्ड महाकाय सूर्यकोटि समप्रभ।<br />
+        निर्विघ्नं कुरु मे देव सर्वकार्येषु सर्वदा॥
+      </p>
+
+      <div class="gold-divider">
+        <span class="gold-divider-icon">✦</span>
+      </div>
+
+      <div class="invitation-kicker">Together with their Families</div>
+      <p class="hero-subtitle">cordially invite you to celebrate the joyous</p>
+
+      <!-- Couple Names -->
+      <h1 class="couple-names-main">
+        <span class="bride-name">Nikitha</span>
+        <div class="ampersand-wrap">
+          <span>&amp;</span>
+        </div>
+        <span class="groom-name">Chirag</span>
+      </h1>
+
+      <div class="ceremony-badge">
+        <span>💍</span> Engagement Ceremony
+      </div>
+    </section>
+
+    <!-- LIVE COUNTDOWN TIMER SECTION -->
+    <section class="card-section">
+      <div class="countdown-box">
+        <h2 class="countdown-title">Counting Down To Our Special Day</h2>
+        <div class="timer-grid">
+          <div class="timer-unit">
+            <span class="timer-number" id="timerDays">00</span>
+            <span class="timer-label">Days</span>
+          </div>
+          <div class="timer-unit">
+            <span class="timer-number" id="timerHours">00</span>
+            <span class="timer-label">Hours</span>
+          </div>
+          <div class="timer-unit">
+            <span class="timer-number" id="timerMins">00</span>
+            <span class="timer-label">Mins</span>
+          </div>
+          <div class="timer-unit">
+            <span class="timer-number" id="timerSecs">00</span>
+            <span class="timer-label">Secs</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EVENT ITINERARY & VENUE DETAILS -->
+    <section class="card-section">
+      <h2 class="section-title">The Celebration</h2>
+      <p class="section-subtitle">Ring Ceremony &amp; Celebrations</p>
+      <div class="gold-divider"><span class="gold-divider-icon">❦</span></div>
+
+      <div class="event-main-card">
+        <div class="event-header">
+          <div class="event-ring-icon">💍</div>
+          <div class="event-header-text">
+            <h3>Engagement Ceremony</h3>
+            <p>Exchange of Rings &amp; Auspicious Rituals</p>
+          </div>
+        </div>
+
+        <!-- Date & Day -->
+        <div class="event-info-row">
+          <svg class="event-info-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+            <line x1="16" y1="2" x2="16" y2="6"></line>
+            <line x1="8" y1="2" x2="8" y2="6"></line>
+            <line x1="3" y1="10" x2="21" y2="10"></line>
+          </svg>
+          <div class="event-info-text">
+            <div class="info-title">Date</div>
+            <div class="info-content">Thursday, 24th September 2026</div>
+          </div>
+        </div>
+
+        <!-- Time -->
+        <div class="event-info-row">
+          <svg class="event-info-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"></circle>
+            <polyline points="12 6 12 12 16 14"></polyline>
+          </svg>
+          <div class="event-info-text">
+            <div class="info-title">Auspicious Time</div>
+            <div class="info-content">11:00 AM Onwards</div>
+            <div class="info-sub">Followed by Lunch &amp; Festivities</div>
+          </div>
+        </div>
+
+        <!-- Venue Details -->
+        <div class="event-info-row">
+          <svg class="event-info-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+            <circle cx="12" cy="10" r="3"></circle>
+          </svg>
+          <div class="event-info-text">
+            <div class="info-title">Venue</div>
+            <div class="info-content"><strong>Akshara Banquet &amp; Lawns</strong></div>
+            <div class="info-sub">No. 5, GD Avenue, Kempapura Rd, Chikkabanavara, Kempapura, Bengaluru, Karnataka 560090</div>
+          </div>
+        </div>
+
+        <!-- Venue Directions Button -->
+        <a href="https://maps.app.goo.gl/piix3ZGf51rxnUbn6?g_st=iw" target="_blank" rel="noopener noreferrer" class="btn-gold" id="btnVenueDirections">
+          📍 Open in Google Maps
+        </a>
+      </div>
+    </section>
+
+    <!-- COUPLE PHOTO GALLERY -->
+    <section class="card-section">
+      <h2 class="section-title">Nikitha &amp; Chirag</h2>
+      <p class="section-subtitle">Cherished Moments Together</p>
+      <div class="gold-divider"><span class="gold-divider-icon">❤</span></div>
+
+      <div class="couple-photos-grid">
+        <div class="photo-card" data-lightbox-src="images/couple_1.png" title="Tap to expand photo">
+          <img src="images/couple_1.png" alt="Nikitha &amp; Chirag photo" loading="lazy" />
+          <div class="photo-card-tag">Together Forever</div>
+        </div>
+        <div class="photo-card" data-lightbox-src="images/couple_2.png" title="Tap to expand photo">
+          <img src="images/couple_2.png" alt="Nikitha &amp; Chirag selfie" loading="lazy" />
+          <div class="photo-card-tag">A New Beginning</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RSVP & CALENDAR SECTION -->
+    <section class="card-section">
+      <h2 class="section-title">Join Our Celebration</h2>
+      <p class="section-subtitle">Your presence is our biggest blessing</p>
+      <div class="gold-divider"><span class="gold-divider-icon">💌</span></div>
+
+      <div class="action-buttons-wrap">
+        <!-- Send Wishes WhatsApp -->
+        <a href="https://wa.me/?text=Dear%20Nikitha%20%26%20Chirag%2C%20Heartiest%20congratulations%20on%20your%20Engagement!%20We%20are%20so%20excited%20to%20celebrate%20with%20you%20on%2024th%20September!%20%E2%9D%A4%EF%B8%8F%F0%9F%92%8D" target="_blank" rel="noopener noreferrer" class="btn-gold" id="btnWhatsappWishes">
+          💬 Send Wishes on WhatsApp
+        </a>
+
+        <!-- Add to Google Calendar -->
+        <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Nikitha+%26+Chirag+Engagement+Ceremony&dates=20260924T053000Z/20260924T113000Z&details=Celebrating+the+joyous+Engagement+Ceremony+of+Nikitha+and+Chirag.&location=Akshara+Banquet+%26+Lawns,+GD+Avenue,+Kempapura+Rd,+Bengaluru" target="_blank" rel="noopener noreferrer" class="btn-outline-gold" id="btnAddToCalendar">
+          📅 Add to Google Calendar
+        </a>
+
+        <!-- Copy Invitation Link -->
+        <button onclick="copyInviteLink()" class="btn-outline-gold" id="btnShareInvite">
+          🔗 Share Invitation Link
+        </button>
+      </div>
+
+      <!-- Heartfelt Blessings Note -->
+      <div class="blessings-card">
+        <p class="blessings-quote">
+          "As two souls unite with love and the sacred promise of forever, we request the honor of your presence and warm blessings as we take our first step together."
+        </p>
+        <div class="blessings-attribution">
+          With Love &amp; Respect<br />
+          Nikitha &amp; Chirag and Families
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <p>✦ With Love, Nikitha &amp; Chirag ✦</p>
+      <p style="margin-top: 6px; opacity: 0.85;">24th September 2026 • Bengaluru</p>
+    </footer>
+
+  </main>
+
+  <!-- ==========================================
+       LIGHTBOX MODAL FOR PHOTOS
+       ========================================== -->
+  <div class="lightbox-modal" id="lightboxModal">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close modal">&times;</button>
+    <img src="" alt="Couple Photo Full View" class="lightbox-img" id="lightboxImg" />
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast-msg" id="toastMsg">Notification</div>
+
+  <!-- JavaScript -->
+  <script src="js/luxury-invite.js"></script>
+</body>
+</html>
