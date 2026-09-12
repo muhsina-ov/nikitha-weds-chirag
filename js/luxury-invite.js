@@ -193,43 +193,7 @@ document.addEventListener('DOMContentLoaded', () => {
   updateCountdown();
   setInterval(updateCountdown, 1000);
 
-  // 4. PHOTO LIGHTBOX
-  const lightbox = document.getElementById('lightboxModal');
-  const lightboxImg = document.getElementById('lightboxImg');
-  const lightboxClose = document.getElementById('lightboxClose');
-
-  document.querySelectorAll('[data-lightbox-src]').forEach((el) => {
-    el.addEventListener('click', () => {
-      const src = el.getAttribute('data-lightbox-src');
-      if (lightbox && lightboxImg && src) {
-        lightboxImg.src = src;
-        lightbox.classList.add('active');
-        document.body.style.overflow = 'hidden';
-      }
-    });
-  });
-
-  function closeLightbox() {
-    if (lightbox) {
-      lightbox.classList.remove('active');
-      document.body.style.overflow = '';
-    }
-  }
-
-  if (lightboxClose) lightboxClose.addEventListener('click', closeLightbox);
-  if (lightbox) {
-    lightbox.addEventListener('click', (e) => {
-      if (e.target === lightbox) closeLightbox();
-    });
-  }
-
-  document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape' && lightbox && lightbox.classList.contains('active')) {
-      closeLightbox();
-    }
-  });
-
-  // 5. TOAST NOTIFICATION & SHARE HELPER
+  // 4. TOAST NOTIFICATION & SHARE HELPER
   window.showToast = function (msg) {
     if (!toast) return;
     toast.innerText = msg;
@@ -244,7 +208,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (navigator.clipboard) {
       navigator.clipboard
         .writeText(url)
-        .then(() => showToast('✨ Invitation link copied!'))
+        .then(() => showToast('✨ Invitation link copied to clipboard!'))
         .catch(() => showToast('Link copied to clipboard!'));
     } else {
       showToast('✨ Invitation link ready to share!');

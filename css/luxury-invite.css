@@ -757,6 +757,41 @@ body {
 }
 
 /* ==========================================================================
+   PROMISE & LOVE NOTE
+   ========================================================================== */
+.promise-card {
+  background: linear-gradient(135deg, rgba(63, 10, 19, 0.7) 0%, rgba(32, 4, 8, 0.85) 100%);
+  border: 1px solid rgba(212, 175, 55, 0.4);
+  border-radius: 18px;
+  padding: 24px 20px;
+  margin-top: 14px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.promise-quote {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: 1.05rem;
+  color: var(--color-gold-pale);
+  line-height: 1.7;
+}
+
+.promise-tag {
+  display: inline-block;
+  font-family: var(--font-royal);
+  font-size: 0.82rem;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: var(--color-gold-light);
+  margin-top: 14px;
+  padding: 4px 14px;
+  background: rgba(212, 175, 55, 0.12);
+  border-radius: 20px;
+  border: 1px solid rgba(212, 175, 55, 0.3);
+}
+
+/* ==========================================================================
    BLESSINGS & LOVE NOTE
    ========================================================================== */
 .blessings-card {
