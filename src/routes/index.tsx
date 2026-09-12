@@ -17,8 +17,8 @@ const title = meta?.title ?? `${couple.brideShort} & ${couple.groomShort} — En
 const description =
   meta?.description ??
   `${couple.bride} and ${couple.groom} invite you to celebrate their engagement on ${event.dateLabel} at ${venue.name}, ${venue.address}.`;
-const ogUrl = meta?.url ?? "https://nikitha-weds-chirag.pages.dev";
-const ogImage = meta?.image ?? "https://nikitha-weds-chirag.pages.dev/og-image.jpg";
+const ogUrl = meta?.url ?? "https://nikitha-weds-chirag.invitingyou.top";
+const ogImage = meta?.image ?? "https://nikitha-weds-chirag.invitingyou.top/og-image.jpg";
 const siteName = meta?.siteName ?? `${couple.brideShort} & ${couple.groomShort} Engagement`;
 
 export const Route = createFileRoute("/")({

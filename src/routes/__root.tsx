@@ -81,30 +81,30 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       {
         name: "description",
         content:
-          "Together with their families, Nikitha and Chirag cordially invite you to celebrate their engagement on Thursday, September 24, 2026 at Akshara Banquet & Lawns, Bengaluru.",
+          "Join Nikitha & Chirag as they celebrate their engagement on Thursday, 24 Sept 2026 at Akshara Banquet & Lawns, Bengaluru. Lunch & celebrations to follow.",
       },
       { property: "og:type", content: "website" },
       { property: "og:title", content: "Nikitha & Chirag — Engagement Invitation" },
       {
         property: "og:description",
         content:
-          "Together with their families, Nikitha and Chirag cordially invite you to celebrate their engagement on Thursday, September 24, 2026 at Akshara Banquet & Lawns, Bengaluru.",
+          "Join Nikitha & Chirag as they celebrate their engagement on Thursday, 24 Sept 2026 at Akshara Banquet & Lawns, Bengaluru. Lunch & celebrations to follow.",
       },
-      { property: "og:image", content: "https://nikitha-weds-chirag.pages.dev/og-image.jpg" },
-      { property: "og:image:secure_url", content: "https://nikitha-weds-chirag.pages.dev/og-image.jpg" },
-      { property: "og:image:width", content: "1920" },
-      { property: "og:image:height", content: "1080" },
+      { property: "og:image", content: "https://nikitha-weds-chirag.invitingyou.top/og-image.jpg" },
+      { property: "og:image:secure_url", content: "https://nikitha-weds-chirag.invitingyou.top/og-image.jpg" },
+      { property: "og:image:width", content: "1200" },
+      { property: "og:image:height", content: "675" },
       { property: "og:image:alt", content: "Nikitha & Chirag — The Engagement Invitation" },
-      { property: "og:url", content: "https://nikitha-weds-chirag.pages.dev/" },
+      { property: "og:url", content: "https://nikitha-weds-chirag.invitingyou.top/" },
       { property: "og:site_name", content: "Nikitha & Chirag Engagement" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:title", content: "Nikitha & Chirag — Engagement Invitation" },
       {
         name: "twitter:description",
         content:
-          "Together with their families, Nikitha and Chirag cordially invite you to celebrate their engagement on Thursday, September 24, 2026 at Akshara Banquet & Lawns, Bengaluru.",
+          "Join Nikitha & Chirag as they celebrate their engagement on Thursday, 24 Sept 2026 at Akshara Banquet & Lawns, Bengaluru. Lunch & celebrations to follow.",
       },
-      { name: "twitter:image", content: "https://nikitha-weds-chirag.pages.dev/og-image.jpg" },
+      { name: "twitter:image", content: "https://nikitha-weds-chirag.invitingyou.top/og-image.jpg" },
     ],
     links: [
       {

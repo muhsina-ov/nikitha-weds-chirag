@@ -52,9 +52,9 @@ export const invitation = {
   meta: {
     title: "Nikitha & Chirag — Engagement Invitation",
     description:
-      "Together with their families, Nikitha and Chirag cordially invite you to celebrate their engagement on Thursday, September 24, 2026 at Akshara Banquet & Lawns, Bengaluru.",
-    url: "https://nikitha-weds-chirag.pages.dev",
-    image: "https://nikitha-weds-chirag.pages.dev/og-image.jpg",
+      "Join Nikitha & Chirag as they celebrate their engagement on Thursday, 24 Sept 2026 at Akshara Banquet & Lawns, Bengaluru. Lunch & celebrations to follow.",
+    url: "https://nikitha-weds-chirag.invitingyou.top",
+    image: "https://nikitha-weds-chirag.invitingyou.top/og-image.jpg",
     siteName: "Nikitha & Chirag Engagement",
   },
 } as const;
