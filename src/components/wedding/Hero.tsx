@@ -53,13 +53,13 @@ export function Hero() {
           initial={{ opacity: 0, y: 24, letterSpacing: "0.4em" }}
           animate={opened ? { opacity: 1, y: 0, letterSpacing: "0.16em" } : false}
           transition={{ duration: 1.4, delay: 0.35, ease: [0.16, 1, 0.3, 1] }}
-          className="mx-auto mt-4 max-w-md text-3xl leading-tight font-light text-pine uppercase sm:text-5xl"
+          className="mx-auto mt-4 flex flex-col items-center max-w-md text-3xl leading-tight font-light text-pine uppercase sm:text-5xl"
         >
-          {couple.brideShort}
-          <span className="mx-3 inline-block font-display text-2xl lowercase italic text-pine/70">
+          <span>{couple.brideShort}</span>
+          <span className="my-0.5 font-display text-2xl lowercase italic text-pine/70 tracking-normal sm:text-3xl">
             and
           </span>
-          {couple.groomShort}
+          <span>{couple.groomShort}</span>
         </motion.h1>
 
         <motion.div
